@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.login-form{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0; left:0;
+    z-index: 1000;
+    background: rgba(0,0,0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form form{
+    height: 36rem;
+    width: 50rem;
+    background:thistle;
+    margin: 0 2rem;
+    padding: 1 rem 3rem;
+    border-radius: .5rem;
+    box-shadow: 0 .1rem .3rem #333;
+    position: relative
+}
+
+.login-form form h1{
+    font-size: 3rem;
+    font-family:'Courier New', Courier, monospace;
+    color: blue;
+    padding: 1rem 15rem;
+}
+.login-form form h2{
+    font-size:x-large;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    padding: 0 3rem;
+}
+.login-form form p{
+    font-size:x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding: 0 3rem;
+}
+.login-form form select{
+    font-size:x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.login-form form .box{
+    width: 50%;
+    padding: .8rem 5rem;
+    margin: .3rem 5rem;
+    font-size: x-large;
+    color: black;
+    text-transform: none;
+}
+.login-form form .box::placeholder{
+    text-transform:capitalize;
+}
+.login-form form h3{
+    
+    font-size: 0 1rem;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    padding: 0 15rem;
+}
+.login-form form button{
+    
+    padding:0 2rem ;
+    margin: 0 15rem;
+    font-size: 2rem;
+    color:orange;
+    border-radius: 50px;
+    margin-top: 1rem;
+    cursor: pointer;
+    background: var(--gradient);
+    background-color: aqua;
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,1);
+}
+.login-form form h3 a{
+    color: gray;
+}
+
+
+
